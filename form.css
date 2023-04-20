@@ -1,0 +1,77 @@
+body{
+    background-color: #717100;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23693500'/%3E%3Cstop offset='1' stop-color='%23693500' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23006a0b'/%3E%3Cstop offset='1' stop-color='%23006a0b' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%233b0062'/%3E%3Cstop offset='1' stop-color='%233b0062' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23717100'/%3E%3Cstop offset='1' stop-color='%23717100' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23610000'/%3E%3Cstop offset='1' stop-color='%23610000' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23005064'/%3E%3Cstop offset='1' stop-color='%23005064' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.design-heading{
+    text-align: center;
+    color: skyblue;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    text-decoration: underline;
+
+}
+form{
+    width: 25rem;
+    margin: auto;
+    height: auto;
+    border: 2px solid rgb(10, 173, 238);
+    padding: 3px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+}
+label{
+    color: skyblue;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+input{
+    height: 1.3rem;
+    width: 15rem;
+    outline: blue;
+    padding-left: 4px;
+    background-color: rgb(194, 223, 235);
+    border-radius: 10px;
+    margin-left: 6px;
+}
+p{
+    color: skyblue;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn-submit{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(56, 179, 56);
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-reset{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(233, 45, 45);
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flex{
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+.input-radio{
+    color: skyblue;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
